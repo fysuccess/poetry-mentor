@@ -1,0 +1,47 @@
+{
+  "name": "poetry-mentor",
+  "version": "1.0.0",
+  "description": "Expert at classical Chinese poetry appreciation, interactive learning page generation and age-appropriate teaching.",
+  "author": {
+    "name": "飞月",
+    "email": "feiyue.xk@qq.com"
+  },
+  "agents": ["./agents/poetry-mentor.md"],
+  "skills": ["./skills/poetry-api", "./skills/poem-page"],
+
+  "expertType": "agent",
+  "agentName": "poetry-mentor",
+
+  "displayName": {
+    "en": "Classical Poetry Fun Workshop",
+    "zh": "古诗词趣味工坊"
+  },
+  "profession": {
+    "en": "Classical Poetry Mentor",
+    "zh": "古诗词学习导师"
+  },
+  "displayDescription": {
+    "en": "A fun workshop of classical Chinese poetry: five-dimension appreciation and age-based teaching, one-click interactive pages with reading, poem-chain games and word puzzles — making poetry fun.",
+    "zh": "海量古典诗词，五维赏析与分龄教学。一键生成互动赏析页，支持朗读、飞花令、诗词消消乐，让读诗成趣。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "06-ContentCreative",
+  "defaultInitPrompt": {
+    "zh": "帮我赏析《静夜思》，生成一个互动学习网页，指导小学低年级孩子",
+    "en": "Appreciate \"Thoughts on a Quiet Night\" and generate an interactive learning page for young elementary students."
+  },
+  "plugin": "poetry-mentor",
+  "tags": [
+    { "en": "Poetry Appreciation", "zh": "诗词赏析" },
+    { "en": "Interactive Learning", "zh": "互动学习页" },
+    { "en": "Age-based Teaching", "zh": "分龄教学" }
+  ],
+  "quickPrompts": [
+    { "en": "Appreciate \"Thoughts on a Quiet Night\" and generate an interactive learning page for young elementary students.",
+      "zh": "帮我赏析《静夜思》，生成一个互动学习网页，指导小学低年级孩子" },
+    { "en": "Recommend a motivational poem for middle school students, explain exam points and generate an appreciation page.",
+      "zh": "推荐一首适合初中生的励志诗，讲解考点并生成赏析页" },
+    { "en": "Play a poem-chain battle on the character \"moon\" with AI, then create a word-mix game.",
+      "zh": "用飞花令“月”字和 AI 玩诗词接龙，再出一份消消乐" }
+  ]
+}
